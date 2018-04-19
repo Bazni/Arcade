@@ -1,0 +1,45 @@
+.TH "Arcade::IGame" 3 "Tue Mar 27 2018" "Version 1.0" "ARCADE" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Arcade::IGame
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBArcade::Pacman\fP, and \fBArcade::Snake\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "virtual std::string \fBgetName\fP ()=0"
+.br
+.ti -1c
+.RI "virtual std::vector< std::vector< \fBArcade::Pixel\fP > > \fBgetScreenLayers\fP ()=0"
+.br
+.ti -1c
+.RI "virtual std::string \fBgetBackground\fP ()=0"
+.br
+.ti -1c
+.RI "virtual std::string \fBgetSoundEffect\fP ()=0"
+.br
+.ti -1c
+.RI "virtual void \fBsendInput\fP (Arcade::Input input)=0"
+.br
+.ti -1c
+.RI "virtual void \fBupdate\fP ()=0"
+.br
+.ti -1c
+.RI "virtual std::pair< unsigned int, unsigned int > \fBgetRes\fP ()=0"
+.br
+.ti -1c
+.RI "virtual unsigned int \fBgetScore\fP ()=0"
+.br
+.ti -1c
+.RI "virtual void \fBreset\fP ()=0"
+.br
+.in -1c
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for ARCADE from the source code\&.

@@ -1,0 +1,51 @@
+.TH "Arcade::Snake" 3 "Tue Mar 27 2018" "Version 1.0" "ARCADE" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Arcade::Snake
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBArcade::IGame\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "std::string \fBgetName\fP () override"
+.br
+.ti -1c
+.RI "std::vector< std::vector< \fBArcade::Pixel\fP > > \fBgetScreenLayers\fP () override"
+.br
+.ti -1c
+.RI "std::string \fBgetBackground\fP () override"
+.br
+.ti -1c
+.RI "void \fBsendInput\fP (Arcade::Input input) override"
+.br
+.ti -1c
+.RI "void \fBupdate\fP () override"
+.br
+.ti -1c
+.RI "std::pair< unsigned int, unsigned int > \fBgetRes\fP () override"
+.br
+.ti -1c
+.RI "unsigned int \fBgetScore\fP () override"
+.br
+.ti -1c
+.RI "void \fBpopFruit\fP ()"
+.br
+.ti -1c
+.RI "bool \fBcheckSnake\fP (\fBArcade::Pixel\fP target)"
+.br
+.ti -1c
+.RI "void \fBreset\fP () override"
+.br
+.ti -1c
+.RI "std::string \fBgetSoundEffect\fP ()"
+.br
+.in -1c
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for ARCADE from the source code\&.

@@ -1,0 +1,51 @@
+.TH "Arcade::ILibrary" 3 "Tue Mar 27 2018" "Version 1.0" "ARCADE" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Arcade::ILibrary
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBArcade::Allegro\fP, \fBArcade::LibCaca\fP, \fBArcade::SDL\fP, and \fBArcade::SFML\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "virtual Arcade::Input \fBgetInput\fP ()=0"
+.br
+.ti -1c
+.RI "virtual void \fBputPixel\fP (\fBArcade::Pixel\fP pixel)=0"
+.br
+.ti -1c
+.RI "virtual void \fBdrawBackground\fP (const std::string &backgroundPath)=0"
+.br
+.ti -1c
+.RI "virtual void \fBsendScore\fP (unsigned int score)=0"
+.br
+.ti -1c
+.RI "virtual void \fBsendName\fP (const std::string &name)=0"
+.br
+.ti -1c
+.RI "virtual void \fBdrawUserInterface\fP ()=0"
+.br
+.ti -1c
+.RI "virtual void \fBputText\fP (const \fBArcade::Text\fP &text)=0"
+.br
+.ti -1c
+.RI "virtual void \fBclear\fP ()=0"
+.br
+.ti -1c
+.RI "virtual void \fBupdate\fP ()=0"
+.br
+.ti -1c
+.RI "virtual void \fBcreateWindow\fP ()=0"
+.br
+.ti -1c
+.RI "virtual void \fBdestroyWindow\fP ()=0"
+.br
+.in -1c
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for ARCADE from the source code\&.

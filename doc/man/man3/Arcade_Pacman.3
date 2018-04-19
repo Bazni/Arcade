@@ -1,0 +1,48 @@
+.TH "Arcade::Pacman" 3 "Tue Mar 27 2018" "Version 1.0" "ARCADE" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Arcade::Pacman
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBArcade::IGame\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "std::string \fBgetName\fP ()"
+.br
+.ti -1c
+.RI "std::vector< std::vector< \fBArcade::Pixel\fP > > \fBgetScreenLayers\fP () override"
+.br
+.ti -1c
+.RI "void \fBsendInput\fP (Arcade::Input input) override"
+.br
+.ti -1c
+.RI "void \fBupdate\fP () override"
+.br
+.ti -1c
+.RI "std::pair< unsigned int, unsigned int > \fBgetRes\fP ()"
+.br
+.ti -1c
+.RI "unsigned int \fBgetScore\fP ()"
+.br
+.ti -1c
+.RI "std::string \fBgetBackground\fP ()"
+.br
+.ti -1c
+.RI "bool \fBisEating\fP () const"
+.br
+.ti -1c
+.RI "void \fBreset\fP () override"
+.br
+.ti -1c
+.RI "std::string \fBgetSoundEffect\fP () override"
+.br
+.in -1c
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for ARCADE from the source code\&.
