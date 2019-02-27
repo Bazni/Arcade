@@ -67,7 +67,7 @@ void Arcade::Allegro::destroyWindow()
 
 Arcade::Input Arcade::Allegro::getRawInput()
 {
-	al_clear_keyboard_state(_display);
+	//al_clear_keyboard_state(_display);
 
 	ALLEGRO_EVENT event;
 	if (al_get_next_event(_eventWindowQueue, &event) &&

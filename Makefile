@@ -9,7 +9,7 @@ CXX		=	g++
 
 INC		=	-I src/
 
-CXXFLAGS	+=	-Wall -Wextra -pedantic -std=c++14 -fPIC $(INC)
+CXXFLAGS	+=	-Wall -Wextra -pedantic -std=c++17 -fPIC $(INC)
 
 LDFLAGS		=	-ldl
 
